@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_row_selector"
+    android:padding="8dp" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Source"
+        android:id="@+id/sourceText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/location"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Time)"
+        android:id="@+id/sourceTime"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/sourceText"
+        android:layout_toEndOf="@+id/sourceText"
+        android:layout_marginLeft="2dp"
+        android:textSize="@dimen/time" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--->"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/sourceTime"
+        android:layout_toEndOf="@+id/sourceTime"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Destination"
+        android:id="@+id/destText"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/sourceTime"
+        android:layout_toEndOf="@+id/sourceTime"
+        android:layout_marginLeft="60dp"
+        android:textSize="@dimen/location"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Time)"
+        android:id="@+id/destTime"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/destText"
+        android:layout_toEndOf="@+id/destText"
+        android:layout_marginLeft="2dp"
+        android:textSize="@dimen/time"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vacancy -"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/sourceText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/genre"
+        android:textSize="@dimen/vacancy"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0/0"
+        android:id="@+id/vacancyText"
+        android:layout_below="@+id/sourceText"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="2dp"
+        android:textSize="@dimen/vacancy"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/bg_login"
+        android:layout_below="@+id/sourceText">
+        <TextView
+            android:id="@+id/costText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cost"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:textSize="@dimen/cost"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/Rohan$$$/Downloads/TravelCo/app/src/main/res/layout/list_row_rides.xml -->

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/build/library/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="accent">#FF9800</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="primary">#673AB7</color>
+    <color name="primary_dark">#512DA8</color>
+    <color name="primary_light">#D1C4E9</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="white">#FFFFFF</color>
+    <!-- From: file:/build/library/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="default_bottom_margin">8dp</dimen>
+    <dimen name="default_left_margin">16dp</dimen>
+    <dimen name="default_right_margin">16dp</dimen>
+    <dimen name="default_text_size">16sp</dimen>
+    <dimen name="default_text_top_bottom_padding">8sp</dimen>
+    <dimen name="extra_bottom_margin">16dp</dimen>
+    <!-- From: file:/build/library/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="childKey" type="id"/>
+    <item name="imagePath" type="id"/>
+    <item name="key" type="id"/>
+    <item name="type" type="id"/>
+    <!-- From: file:/build/library/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <integer name="navigationAnimTime">300</integer>
+    <!-- From: file:/build/library/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">jsonwizard</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- From: file:/build/library/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/primary</item>
+
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+
+        <!-- colorAccent is used as the default value for colorControlActivated,
+             which is used to tint widgets -->
+        <item name="colorAccent">@color/accent</item>
+        <!-- You can also set colorControlNormal, colorControlActivated
+             colorControlHighlight, and colorSwitchThumbNormal. -->
+    </style>
+    <style name="AppTheme.DarkToolbar" parent="AppTheme">
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:actionMenuTextColor">#FFFFFF</item>
+        <item name="actionMenuTextColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

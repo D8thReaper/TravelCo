@@ -1,0 +1,45 @@
+
+<resources>
+
+    <string name="app_name">Travel Companion</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btnFComp">Find Companion</string>
+    <string name="btnFRide">Find Ride</string>
+    <string name="btnFStay">Find Stay</string>
+    <string name="btnGo">Go</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">Registeration</string>
+    <string name="title_activity_display">Display</string>
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_notifications</item>
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_item_home">History</string>
+    <string name="nav_item_friends">Account</string>
+    <string name="nav_item_notifications">Logout</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_history">History</string>
+    <string name="title_account">User Account</string>
+    <string name="title_activity_add_ride">AddRide</string>
+    <string name="title_activity_add_stay">addStay</string>
+    <string name="title_activity_form">FormActivity</string>
+
+</resources>

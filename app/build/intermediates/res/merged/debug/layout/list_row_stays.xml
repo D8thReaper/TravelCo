@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_row_selector"
+    android:padding="8dp" >
+
+    <!-- Thumbnail Image -->
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp" />
+
+    <!-- Stay Address -->
+    <TextView
+        android:id="@+id/addressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Address"
+        android:textSize="@dimen/location"
+        android:textStyle="bold" />
+
+    <!-- Duration -->
+    <TextView
+        android:id="@+id/durationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addressText"
+        android:text="Duration"
+        android:layout_marginTop="13dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textSize="@dimen/vacancy" />
+
+    <!-- Cost -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/durationText"
+        android:layout_marginTop="10dp"
+        android:background="@color/bg_login"
+        android:layout_toRightOf="@+id/thumbnail">
+
+        <TextView
+            android:id="@+id/costStayText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cost"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/cost"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout><!-- From: file:/C:/Users/Rohan$$$/Downloads/TravelCo/app/src/main/res/layout/list_row_stays.xml -->

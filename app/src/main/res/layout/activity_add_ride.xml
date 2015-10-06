@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context="com.d8threaper.travelco.Forms.AddRide">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Car's Model"
+        android:ems="10"
+        android:id="@+id/carModel" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Available number of seats"
+        android:id="@+id/availSeats" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Total number of seats"
+        android:id="@+id/totalSeats" />
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sourceAutoComplete"
+        android:hint="Type in your location"/>
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/destAutoComplete"
+        android:hint="Type in your destination"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:focusable="false"
+        android:ems="10"
+        android:id="@+id/dateDepartureRide"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter date"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AC"
+        android:id="@+id/ac" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Estimated money per person"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/money" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:focusable="false"
+        android:ems="10"
+        android:hint="Estimated time of departure"
+        android:id="@+id/departureTime" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:focusable="false"
+        android:ems="10"
+        android:hint="Estimated time of arrival"
+        android:id="@+id/estReachTime" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submit_ride"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
