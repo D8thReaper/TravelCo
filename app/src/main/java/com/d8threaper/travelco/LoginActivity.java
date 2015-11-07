@@ -26,13 +26,18 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
+import butterknife.Bind;
+import butterknife.ButterKnife;
+
 public class LoginActivity extends Activity {
     // LogCat tag
     private static final String TAG = LoginActivity.class.getSimpleName();
-    private Button btnLogin;
-    private TextView btnLinkToRegister;
-    private EditText inputEmail;
-    private EditText inputPassword;
+
+    @Bind(R.id.loginPassword) EditText inputPassword;
+    @Bind(R.id.btnLogin) Button btnLogin;
+    @Bind(R.id.link_to_register) TextView btnLinkToRegister;
+    @Bind(R.id.loginEmail) EditText inputEmail;
+
     private ProgressDialog pDialog;
     private SessionManager session;
     private SQLiteHandler db;
@@ -41,15 +46,12 @@ public class LoginActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        inputEmail = (EditText) findViewById(R.id.loginEmail);
-        inputPassword = (EditText) findViewById(R.id.loginPassword);
-        btnLogin = (Button) findViewById(R.id.btnLogin);
-        btnLinkToRegister = (TextView) findViewById(R.id.link_to_register);
+        ButterKnife.bind(this);
 
         // Progress dialog
         pDialog = new ProgressDialog(this);
         pDialog.setCancelable(false);
+        pDialog.setIndeterminate(true);
 
         db = new SQLiteHandler(getApplicationContext());
 
@@ -71,17 +73,19 @@ public class LoginActivity extends Activity {
                 String email = inputEmail.getText().toString();
                 String password = inputPassword.getText().toString();
 
-                // Check for empty data in the form
-                if (email.trim().length() > 0 && password.trim().length() > 0) {
-                    // login user
-                    Log.d(TAG,"Starting login check");
-                    checkLogin(email, password);
-                } else {
-                    // Prompt user to enter credentials
-                    Toast.makeText(getApplicationContext(),
-                            "Please enter the credentials!", Toast.LENGTH_LONG)
-                            .show();
-                }
+//                // Check for empty data in the form
+//                if (email.trim().length() > 0 && password.trim().length() > 0) {
+//                    // login user
+//                    Log.d(TAG,"Starting login check");
+//                    checkLogin(email, password);
+//                } else {
+//                    // Prompt user to enter credentials
+//                    Toast.makeText(getApplicationContext(),
+//                            "Please enter the credentials!", Toast.LENGTH_LONG)
+//                            .show();
+//                }
+
+                checkLogin(email,password);
             }
 
         });
@@ -105,6 +109,12 @@ public class LoginActivity extends Activity {
     private void checkLogin(final String email, final String password) {
         // Tag used to cancel the request
         String tag_string_req = "req_login";
+
+        if (!validate()) {
+            onLoginFailed();
+            return;
+        }
+
         pDialog.setMessage("Logging in ...");
         showDialog();
 
@@ -151,6 +161,7 @@ public class LoginActivity extends Activity {
                         String errorMsg = jObj.getString("message");
                         Toast.makeText(getApplicationContext(),
                                 errorMsg, Toast.LENGTH_LONG).show();
+
                     }
                 } catch (JSONException e) {
                     // JSON error
@@ -194,5 +205,45 @@ public class LoginActivity extends Activity {
     private void hideDialog() {
         if (pDialog.isShowing())
             pDialog.dismiss();
+    }
+
+    @Override
+    public void onBackPressed() {
+        // disable going back to the MainActivity
+        moveTaskToBack(true);
+    }
+
+    public void onLoginSuccess() {
+        btnLogin.setEnabled(true);
+        finish();
+    }
+
+    public void onLoginFailed() {
+        Toast.makeText(getBaseContext(), "Login failed", Toast.LENGTH_LONG).show();
+
+        btnLogin.setEnabled(true);
+    }
+
+    public boolean validate() {
+        boolean valid = true;
+
+        String email = inputEmail.getText().toString();
+        String password = inputPassword.getText().toString();
+
+        if (email.isEmpty() || !android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+            inputEmail.setError("enter a valid email address");
+            valid = false;
+        } else {
+            inputEmail.setError(null);
+        }
+
+        if (password.isEmpty() || password.length() < 4 || password.length() > 10) {
+            inputPassword.setError("between 4 and 10 alphanumeric characters");
+            valid = false;
+        } else {
+            inputPassword.setError(null);
+        }
+
+        return valid;
     }
 }

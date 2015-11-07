@@ -15,4 +15,10 @@ public class AppConfig {
 
     // Server add stay url
     public static String URL_ADD_STAY = "https://brinjal.me/and_test/android_api/v2/addStay";
+
+    // Directory name to store captured images and videos
+    public static final String IMAGE_DIRECTORY_NAME = "Android File Upload";
+
+    public static String FILE_UPLOAD_URL = "https://brinjal.me/and_test/android_api/FileUpload.php";
+
 }

@@ -12,6 +12,8 @@ import android.view.MenuItem;
 
 import com.d8threaper.travelco.Forms.AddRide;
 import com.d8threaper.travelco.Forms.addStay;
+import com.d8threaper.travelco.Picture.camOrGallery;
+import com.d8threaper.travelco.Picture.uploadProfileActivity;
 
 public class FormActivity extends AppCompatActivity {
 
@@ -37,6 +39,14 @@ public class FormActivity extends AppCompatActivity {
             case 2:
                 fragment = new addStay();
                 title = "Add Stay";
+                break;
+            case 3:
+                fragment = new camOrGallery();
+                title = "Upload an image";
+                break;
+            case 4:
+                fragment = new uploadProfileActivity();
+                title = "Upload an image";
                 break;
             default:
                 break;

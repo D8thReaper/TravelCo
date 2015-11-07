@@ -77,6 +77,18 @@ android:layout_height="match_parent">
             android:textColor="@color/white"
             android:textSize="15dp" />
 
+        <Button
+            android:id="@+id/btnTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:background="@color/btn_logut_bg"
+            android:text="@string/btnGo"
+            android:layout_gravity="center_horizontal"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
     </LinearLayout>
 
 
@@ -91,4 +103,4 @@ android:layout_height="match_parent">
         app:layout="@layout/fragment_navigation_drawer"
         tools:layout="@layout/fragment_navigation_drawer" />
 
-</android.support.v4.widget.DrawerLayout><!-- From: file:/C:/Users/Rohan$$$/Downloads/TravelCo/app/src/main/res/layout/activity_mainz.xml -->
+</android.support.v4.widget.DrawerLayout><!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/src/main/res/layout/activity_mainz.xml -->

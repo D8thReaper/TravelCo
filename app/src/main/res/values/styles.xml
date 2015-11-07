@@ -5,7 +5,8 @@
     </style>
 
     <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
-
+        <item name="android:dialogTheme">@style/AppTheme_Dark_Dialog</item>
+        <item name="android:alertDialogStyle">@style/AppTheme_Dark_Dialog</item>
     </style>
 
     <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -14,6 +15,11 @@
         <item name="colorPrimary">@color/ColorPrimary</item>
         <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
         <item name="colorAccent">@color/btn_login</item>
+    </style>
+
+    <style name="AppTheme_Dark_Dialog" parent="MyMaterialTheme">
+        <item name="@android:background">@color/error_color</item>
+        <item name="@android:textColor">@color/white</item>
     </style>
 
 </resources>

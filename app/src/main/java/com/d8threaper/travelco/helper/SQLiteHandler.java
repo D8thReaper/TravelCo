@@ -19,7 +19,7 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 
     // All Static variables
     // Database Version
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 2;
 
     // Database Name
     private static final String DATABASE_NAME = "bookfoxi_tc";
@@ -44,8 +44,8 @@ public class SQLiteHandler extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         String CREATE_LOGIN_TABLE = "CREATE TABLE " + TABLE_LOGIN + "("
                 + KEY_API + " TEXT," + KEY_NAME + " TEXT,"
-                + KEY_EMAIL + " TEXT UNIQUE," + KEY_CREATED_AT + " TEXT" + KEY_GENDER +
-                 "TEXT" + KEY_PHONE + "TEXT" + ")";
+                + KEY_EMAIL + " TEXT UNIQUE," + KEY_CREATED_AT + " TEXT," + KEY_GENDER +
+                 " TEXT," + KEY_PHONE + " INT" + ")";
         db.execSQL(CREATE_LOGIN_TABLE);
 
         Log.d(TAG, "Database tables created");
@@ -95,9 +95,9 @@ public class SQLiteHandler extends SQLiteOpenHelper {
         // Move to first row
         cursor.moveToFirst();
         if (cursor.getCount() > 0) {
-            user.put("api", cursor.getString(1));
-            user.put("name", cursor.getString(2));
-            user.put("email", cursor.getString(0));
+            user.put("api", cursor.getString(0));
+            user.put("name", cursor.getString(1));
+            user.put("email", cursor.getString(2));
             user.put("created_at", cursor.getString(3));
             user.put("gender", cursor.getString(4));
             user.put("phone", cursor.getString(5));

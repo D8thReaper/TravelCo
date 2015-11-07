@@ -33,7 +33,7 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity implements FragmentDrawer.FragmentDrawerListener{
 
     private EditText dateText;
-    private Button btnGo;
+    private Button btnGo,test;
 
     Toolbar toolbar;
     private SQLiteHandler db;
@@ -60,9 +60,18 @@ public class MainActivity extends AppCompatActivity implements FragmentDrawer.Fr
         drawerFragment.setUp(R.id.fragment_navigation_drawer, (DrawerLayout) findViewById(R.id.drawer_layout), toolbar);
         drawerFragment.setDrawerListener(this);
 
-        btnGo = (Button) findViewById(R.id.btnGo);;
+        btnGo = (Button) findViewById(R.id.btnGo);
+        test = (Button) findViewById(R.id.btnTest);
         dateText = (EditText) findViewById(R.id.editText);
 
+        test.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this,FormActivity.class);
+                i.putExtra("form",3);
+                startActivity(i);
+            }
+        });
 
         final AutoCompleteTextView autocompleteView = (AutoCompleteTextView) findViewById(R.id.autoCompleteTextView);
         final AutoCompleteTextView myautocompleteView = (AutoCompleteTextView) findViewById(R.id.myautoCompleteTextView);
