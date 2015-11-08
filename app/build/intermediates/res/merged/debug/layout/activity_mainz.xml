@@ -103,4 +103,4 @@ android:layout_height="match_parent">
         app:layout="@layout/fragment_navigation_drawer"
         tools:layout="@layout/fragment_navigation_drawer" />
 
-</android.support.v4.widget.DrawerLayout><!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/src/main/res/layout/activity_mainz.xml -->
+</android.support.v4.widget.DrawerLayout><!-- From: file:/E:/Android%20Projects/TravelCo/app/src/main/res/layout/activity_mainz.xml -->

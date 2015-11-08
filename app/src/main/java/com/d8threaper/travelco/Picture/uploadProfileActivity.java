@@ -2,6 +2,7 @@ package com.d8threaper.travelco.Picture;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
@@ -18,22 +19,41 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.VideoView;
 
+import com.d8threaper.travelco.FormActivity;
+import com.d8threaper.travelco.MainActivity;
+import com.d8threaper.travelco.Picture.Connection.MySSLSocketFactory;
 import com.d8threaper.travelco.R;
 import com.d8threaper.travelco.app.AppConfig;
 import com.d8threaper.travelco.helper.AndroidMultiPartEntity;
 
 import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
+import org.apache.http.HttpVersion;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpPost;
+import org.apache.http.conn.ClientConnectionManager;
+import org.apache.http.conn.scheme.PlainSocketFactory;
+import org.apache.http.conn.scheme.Scheme;
+import org.apache.http.conn.scheme.SchemeRegistry;
+import org.apache.http.conn.ssl.SSLSocketFactory;
 import org.apache.http.entity.mime.content.FileBody;
-import org.apache.http.entity.mime.content.StringBody;
 import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager;
+import org.apache.http.params.BasicHttpParams;
+import org.apache.http.params.HttpParams;
+import org.apache.http.params.HttpProtocolParams;
+import org.apache.http.protocol.HTTP;
 import org.apache.http.util.EntityUtils;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.json.JSONTokener;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.security.KeyStore;
 
 /**
  * Created by n00b on 11/7/2015.
@@ -132,8 +152,9 @@ public class uploadProfileActivity extends Fragment {
         private String uploadFile() {
             String responseString = null;
 
-            HttpClient httpclient = new DefaultHttpClient();
-            HttpPost httppost = new HttpPost(AppConfig.FILE_UPLOAD_URL);
+//            org.apache.http.client.HttpClient httpclient = new DefaultHttpClient();
+            org.apache.http.client.HttpClient httpclient = getNewHttpClient();
+            org.apache.http.client.methods.HttpPost httppost = new HttpPost(AppConfig.FILE_UPLOAD_URL);
 
             try {
                 AndroidMultiPartEntity entity = new AndroidMultiPartEntity(
@@ -159,13 +180,18 @@ public class uploadProfileActivity extends Fragment {
                 httppost.setEntity(entity);
 
                 // Making server call
-                HttpResponse response = httpclient.execute(httppost);
+                org.apache.http.HttpResponse response = httpclient.execute(httppost);
                 HttpEntity r_entity = response.getEntity();
 
                 int statusCode = response.getStatusLine().getStatusCode();
                 if (statusCode == 200) {
                     // Server response
-                    responseString = EntityUtils.toString(r_entity);
+                    BufferedReader reader = new BufferedReader(new InputStreamReader(response.getEntity().getContent(), "UTF-8"));
+                    String json = reader.readLine();
+                    JSONTokener tokener = new JSONTokener(json);
+                    JSONObject finalResult = new JSONObject(tokener);
+                    responseString = finalResult.getString("message");
+
                 } else {
                     responseString = "Error occurred! Http Status Code: "
                             + statusCode;
@@ -175,6 +201,8 @@ public class uploadProfileActivity extends Fragment {
                 responseString = e.toString();
             } catch (IOException e) {
                 responseString = e.toString();
+            } catch (JSONException e) {
+                e.printStackTrace();
             }
 
             return responseString;
@@ -202,10 +230,35 @@ public class uploadProfileActivity extends Fragment {
                 .setCancelable(false)
                 .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
-                        // do nothing
+                        Intent i = new Intent(getActivity(), MainActivity.class);
+                        startActivity(i);
                     }
                 });
         AlertDialog alert = builder.create();
         alert.show();
+    }
+
+    public HttpClient getNewHttpClient() {
+        try {
+            KeyStore trustStore = KeyStore.getInstance(KeyStore.getDefaultType());
+            trustStore.load(null, null);
+
+            MySSLSocketFactory sf = new MySSLSocketFactory(trustStore);
+            sf.setHostnameVerifier(SSLSocketFactory.ALLOW_ALL_HOSTNAME_VERIFIER);
+
+            HttpParams params = new BasicHttpParams();
+            HttpProtocolParams.setVersion(params, HttpVersion.HTTP_1_1);
+            HttpProtocolParams.setContentCharset(params, HTTP.UTF_8);
+
+            SchemeRegistry registry = new SchemeRegistry();
+            registry.register(new Scheme("http", PlainSocketFactory.getSocketFactory(), 80));
+            registry.register(new Scheme("https", sf, 443));
+
+            ClientConnectionManager ccm = new ThreadSafeClientConnManager(params, registry);
+
+            return new DefaultHttpClient(ccm, params);
+        } catch (Exception e) {
+            return new DefaultHttpClient();
+        }
     }
 }

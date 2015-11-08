@@ -6,4 +6,4 @@
     android:id="@+id/imageView"
     android:padding="10dp"
     android:src="@mipmap/poweredbygoogleonwhite"
-    /><!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/src/main/res/layout/autocomplete_google_logo.xml -->
+    /><!-- From: file:/E:/Android%20Projects/TravelCo/app/src/main/res/layout/autocomplete_google_logo.xml -->

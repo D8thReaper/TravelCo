@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string-array name="nav_drawer_labels">
         <item>@string/nav_item_home</item>
         <item>@string/nav_item_friends</item>
         <item>@string/nav_item_notifications</item>
     </string-array>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -20,11 +20,11 @@
     <bool name="abc_config_allowActionMenuItemTextWithIcon">false</bool>
     <bool name="abc_config_closeDialogWhenTouchOutside">true</bool>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/src/main/res/values/color.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="ColorPrimary">#00897B</color>
     <color name="ColorPrimaryDark">#00695C</color>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="abc_input_method_navigation_guard">@android:color/black</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
@@ -36,12 +36,12 @@
     <color name="background_floating_material_light">#ffeeeeee</color>
     <color name="background_material_dark">#ff303030</color>
     <color name="background_material_light">#ffeeeeee</color>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/src/main/res/values/color.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="bg_login">#26ae90</color>
     <color name="bg_main">#428bca</color>
     <color name="bg_register">#2e3237</color>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
@@ -49,41 +49,41 @@
     <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
     <color name="bright_foreground_material_dark">@android:color/white</color>
     <color name="bright_foreground_material_light">@android:color/black</color>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/src/main/res/values/color.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="btn_login">#26ae90</color>
     <color name="btn_login_bg">#eceef1</color>
     <color name="btn_logut_bg">#ff6861</color>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/src/main/res/values/color.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="colorAccent">#FF80AB</color>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="error_color">#FFDD2C00</color>
     <color name="fab_stroke_end_inner_color">#0A000000</color>
     <color name="fab_stroke_end_outer_color">#0F000000</color>
     <color name="fab_stroke_top_inner_color">#1AFFFFFF</color>
     <color name="fab_stroke_top_outer_color">#2EFFFFFF</color>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/src/main/res/values/color.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="genre">#666666</color>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/src/main/res/values/color.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="input_login">#222222</color>
     <color name="input_login_hint">#999999</color>
@@ -91,18 +91,18 @@
     <color name="input_register_bg">#3b4148</color>
     <color name="input_register_hint">#5e6266</color>
     <color name="lbl_name">#333333</color>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="link_text_material_dark">@color/material_deep_teal_200</color>
     <color name="link_text_material_light">@color/material_deep_teal_500</color>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/src/main/res/values/color.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="list_divider">#d9d9d9</color>
     <color name="list_row_end_color">#ffffff</color>
     <color name="list_row_hover_end_color">#ebeef0</color>
     <color name="list_row_hover_start_color">#ebeef0</color>
     <color name="list_row_start_color">#ffffff</color>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
@@ -123,19 +123,19 @@
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="shadow_end_color">@android:color/transparent</color>
     <color name="shadow_mid_color">#14000000</color>
     <color name="shadow_start_color">#44000000</color>
     <color name="snackbar_background_color">#323232</color>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/src/main/res/values/color.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="tabsScrollColor">#004D40</color>
     <color name="white">#ffffff</color>
@@ -179,7 +179,7 @@
     <declare-styleable name="Toolbar"><attr format="reference" name="titleTextAppearance"/><attr format="reference" name="subtitleTextAppearance"/><attr name="title"/><attr name="subtitle"/><attr name="android:gravity"/><attr format="dimension" name="titleMargins"/><attr format="dimension" name="titleMarginStart"/><attr format="dimension" name="titleMarginEnd"/><attr format="dimension" name="titleMarginTop"/><attr format="dimension" name="titleMarginBottom"/><attr name="contentInsetStart"/><attr name="contentInsetEnd"/><attr name="contentInsetLeft"/><attr name="contentInsetRight"/><attr format="dimension" name="maxButtonHeight"/><attr format="reference" name="collapseIcon"/><attr format="string" name="collapseContentDescription"/><attr name="popupTheme"/><attr format="reference" name="navigationIcon"/><attr format="string" name="navigationContentDescription"/><attr name="android:minHeight"/></declare-styleable>
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/><attr format="reference" name="theme"/><attr name="android:theme"/><attr format="color" name="backgroundTint"/><attr name="backgroundTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/></attr></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -241,17 +241,17 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="appbar_elevation">4dp</dimen>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="cost">13dip</dimen>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
@@ -259,7 +259,7 @@
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="fab_border_width">0.5dp</dimen>
     <dimen name="fab_content_size">24dp</dimen>
@@ -267,14 +267,14 @@
     <dimen name="fab_size_mini">40dp</dimen>
     <dimen name="fab_size_normal">56dp</dimen>
     <dimen name="fab_translation_z_pressed">6dp</dimen>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="location">17dp</dimen>
     <dimen name="nav_drawer_width">260dp</dimen>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="navigation_elevation">12dp</dimen>
     <dimen name="navigation_icon_padding">32dp</dimen>
@@ -283,12 +283,12 @@
     <dimen name="navigation_padding_bottom">8dp</dimen>
     <dimen name="navigation_padding_top_default">0dp</dimen>
     <dimen name="navigation_separator_vertical_padding">8dp</dimen>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="snackbar_action_inline_max_width">128dp</dimen>
     <dimen name="snackbar_background_corner_radius">0dp</dimen>
@@ -302,11 +302,11 @@
     <dimen name="snackbar_text_size">14sp</dimen>
     <dimen name="tab_max_width">264dp</dimen>
     <dimen name="tab_min_width">72dp</dimen>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="time">15dip</dimen>
     <dimen name="vacancy">13dip</dimen>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <item name="action_bar_activity_content" type="id"/>
@@ -314,28 +314,28 @@
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
     <item name="home" type="id"/>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
     <item name="split_action_bar" type="id"/>
     <item name="up" type="id"/>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <item name="view_offset_helper" type="id"/>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <integer name="abc_config_activityDefaultDur">220</integer>
     <integer name="abc_config_activityShortDur">150</integer>
     <integer name="abc_max_action_buttons">2</integer>
     <integer name="cancel_button_image_alpha">127</integer>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <integer name="snackbar_text_max_lines">2</integer>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="abc_action_bar_home_description">Navigate home</string>
@@ -355,14 +355,14 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="app_name">Travel Companion</string>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="btnFComp">Find Companion</string>
     <string name="btnFRide">Find Ride</string>
@@ -384,10 +384,10 @@
     <string name="nav_item_friends">Account</string>
     <string name="nav_item_home">History</string>
     <string name="nav_item_notifications">Logout</string>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="title_account">User Account</string>
     <string name="title_activity_add_ride">AddRide</string>
@@ -398,13 +398,13 @@
     <string name="title_activity_register">Registeration</string>
     <string name="title_history">History</string>
     <string name="welcome">Welcome</string>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/ColorPrimary</item>
@@ -414,7 +414,7 @@
         <item name="@android:background">@color/error_color</item>
         <item name="@android:textColor">@color/white</item>
     </style>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -1330,7 +1330,7 @@
         <item name="android:scaleType">center</item>
         <item name="android:background">?attr/selectableItemBackground</item>
     </style>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.Widget.Design.TabLayout" parent="android:Widget">
         <item name="tabMaxWidth">@dimen/tab_max_width</item>
@@ -1342,7 +1342,7 @@
         <item name="tabTextAppearance">@style/TextAppearance.Design.Tab</item>
         <item name="tabSelectedTextColor">?android:textColorPrimary</item>
     </style>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
         <item name="android:dialogTheme">@style/AppTheme_Dark_Dialog</item>
@@ -1355,7 +1355,7 @@
         <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
         <item name="colorAccent">@color/btn_login</item>
     </style>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
@@ -1554,7 +1554,7 @@
     </style>
     <style name="TextAppearance.AppCompat.Widget.Switch" parent="Base.TextAppearance.AppCompat.Widget.Switch"/>
     <style name="TextAppearance.AppCompat.Widget.TextView.SpinnerItem" parent="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem"/>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance.Design.CollapsingToolbar.Expanded" parent="TextAppearance.AppCompat.Display1">
         <item name="android:textColor">?android:attr/textColorPrimary</item>
@@ -1577,7 +1577,7 @@
         <item name="android:textColor">?android:textColorSecondary</item>
         <item name="textAllCaps">true</item>
     </style>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance.StatusBar.EventContent" parent=""/>
     <style name="TextAppearance.StatusBar.EventContent.Info" parent=""/>
@@ -1707,7 +1707,7 @@
     <style name="Widget.AppCompat.TextView.SpinnerItem" parent="Base.Widget.AppCompat.TextView.SpinnerItem"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="RtlOverlay.Widget.AppCompat.Toolbar.Button.Navigation"/>
-    <!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
+    <!-- From: file:/E:/Android%20Projects/TravelCo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <style name="Widget.Design.AppBarLayout" parent="android:Widget">
         <item name="elevation">@dimen/appbar_elevation</item>

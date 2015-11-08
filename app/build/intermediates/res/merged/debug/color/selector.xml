@@ -4,4 +4,4 @@
     <item android:state_focused="true" android:color="@android:color/white" />
     <item android:state_pressed="true" android:color="@android:color/white" />
     <item android:color="@color/tabsScrollColor" />
-</selector><!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/src/main/res/color/selector.xml -->
+</selector><!-- From: file:/E:/Android%20Projects/TravelCo/app/src/main/res/color/selector.xml -->

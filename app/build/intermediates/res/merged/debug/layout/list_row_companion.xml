@@ -35,4 +35,4 @@
         android:layout_toRightOf="@+id/thumbnailCompanion"
         android:textSize="@dimen/vacancy" />
 
-</RelativeLayout><!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/src/main/res/layout/list_row_companion.xml -->
+</RelativeLayout><!-- From: file:/E:/Android%20Projects/TravelCo/app/src/main/res/layout/list_row_companion.xml -->

@@ -2,18 +2,74 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\n00b\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient-android\4.3.5.1\eecbb0b998e77629862a13d957d552b3be58fc4e\httpclient-android-4.3.5.1.jar"
+        jar="C:\Users\Gulshan\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="eecbb0b998e77629862a13d957d552b3be58fc4e">
-        <dex dex="E:\Ayush\Android project\TravelCo\app\build\intermediates\pre-dexed\debug\httpclient-android-4.3.5.1-290f0d32d3e4f3d47df88d40445530427fdb6c1e.jar" />
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="E:\Android Projects\TravelCo\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1-c451f314c264e83cb154745aa1380ec303cb92d4.jar" />
     </item>
     <item
-        jar="C:\Users\n00b\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.3\5b0002c5fb66867ca919be0fbd86de1cfaf76da7\httpmime-4.3.jar"
+        jar="E:\Android Projects\TravelCo\app\build\intermediates\exploded-aar\TravelCo\volley\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5ca13eacc6ceb8c4116a1bd73247333a05c95ba9">
+        <dex dex="E:\Android Projects\TravelCo\app\build\intermediates\pre-dexed\debug\classes-fcdff67b202d5d5602e4c6ecac099a5a5be0dc85.jar" />
+    </item>
+    <item
+        jar="C:\Users\Gulshan\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.3\5b0002c5fb66867ca919be0fbd86de1cfaf76da7\httpmime-4.3.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="5b0002c5fb66867ca919be0fbd86de1cfaf76da7">
-        <dex dex="E:\Ayush\Android project\TravelCo\app\build\intermediates\pre-dexed\debug\httpmime-4.3-fb3c56cedaabd0f13298b751a77f4a7d07b6c3a0.jar" />
+        <dex dex="E:\Android Projects\TravelCo\app\build\intermediates\pre-dexed\debug\httpmime-4.3-ace1e0f9d0a8895ce6d4a116c667c0d6c8e1ae18.jar" />
+    </item>
+    <item
+        jar="E:\Android Projects\TravelCo\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="E:\Android Projects\TravelCo\app\build\intermediates\pre-dexed\debug\classes-1629054c30fa41abad3d2f6e925d395354178979.jar" />
+    </item>
+    <item
+        jar="C:\Users\Gulshan\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient-android\4.3.5.1\eecbb0b998e77629862a13d957d552b3be58fc4e\httpclient-android-4.3.5.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="eecbb0b998e77629862a13d957d552b3be58fc4e">
+        <dex dex="E:\Android Projects\TravelCo\app\build\intermediates\pre-dexed\debug\httpclient-android-4.3.5.1-a0060f99b9f050c8df725dd2ae8175eee0b45f0d.jar" />
+    </item>
+    <item
+        jar="E:\Android Projects\TravelCo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="E:\Android Projects\TravelCo\app\build\intermediates\pre-dexed\debug\classes-1ac11b858c0a2c733088f61704e84c61dc4d9f6f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Gulshan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="E:\Android Projects\TravelCo\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-bcc26a9b27216b72ae50be57ed1679a5547cbd89.jar" />
+    </item>
+    <item
+        jar="E:\Android Projects\TravelCo\app\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="E:\Android Projects\TravelCo\app\build\intermediates\pre-dexed\debug\classes-4c96a790e74ebf3da03be1574c82816fa74a01a4.jar" />
+    </item>
+    <item
+        jar="E:\Android Projects\TravelCo\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="E:\Android Projects\TravelCo\app\build\intermediates\pre-dexed\debug\classes-fd5475bd6e6c5dfe7a56c5a74cb9b3654e3aa876.jar" />
+    </item>
+    <item
+        jar="E:\Android Projects\TravelCo\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="E:\Android Projects\TravelCo\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-f0624233ca81e08585648fb6167fcaf10fabb270.jar" />
     </item>
 
 </items>

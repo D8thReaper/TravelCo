@@ -19,6 +19,7 @@ public class AppConfig {
     // Directory name to store captured images and videos
     public static final String IMAGE_DIRECTORY_NAME = "Android File Upload";
 
-    public static String FILE_UPLOAD_URL = "https://brinjal.me/and_test/android_api/FileUpload.php";
+    // Image upload URL
+    public static String FILE_UPLOAD_URL = "https://brinjal.me/and_test/android_api/v1/FileUpload.php";
 
 }

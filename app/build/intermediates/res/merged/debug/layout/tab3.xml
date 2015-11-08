@@ -24,4 +24,4 @@
         app:layout_anchorGravity="bottom|right|end"
         android:id="@+id/addCompanion" />
 
-</android.support.design.widget.CoordinatorLayout><!-- From: file:/E:/Ayush/Android%20project/TravelCo/app/src/main/res/layout/tab3.xml -->
+</android.support.design.widget.CoordinatorLayout><!-- From: file:/E:/Android%20Projects/TravelCo/app/src/main/res/layout/tab3.xml -->
